@@ -1,0 +1,136 @@
+@keyframes spin {
+    100% {
+        rotate: 360deg;
+    }
+}
+@keyframes trap {
+    0% {
+        border-top-right-radius: 0%;
+        border-top-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+        border-bottom-left-radius: 0%;
+    }
+
+    50% {
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+    }
+    100% {
+        border-top-right-radius: 0%;
+        border-top-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+        border-bottom-left-radius: 0%;
+    }
+}
+#pasw {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    text-align: center;
+    align-items: center;
+    padding: 10%;
+    font-size: xx-large;
+    font-weight: bolder;
+    align-content: space-between;
+}
+#pasw1 {
+    flex: 50%;
+}
+#pasw2 {
+    flex: 50%;
+}
+header {
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 500%;
+    font-weight: bolder;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#krug {
+    height: 200px;
+    width: 200px;
+    background-color: #41cfa5;
+    border-radius: 50%;
+    display: inline-block;
+    background: linear-gradient(0deg, rgb(104, 190, 82) 0%, rgb(237, 44, 255) 100%);
+    animation: spin;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+}
+#trapezoid {
+    border-bottom: 200px solid #555;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    height: 0;
+    width: 200px;
+    display: inline-block;
+    animation: trap;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+}
+#f1 {
+    background-color: antiquewhite;
+}
+#dwslika {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#slike3 {
+    color: rgb(255, 247, 247);
+    display: flex;
+    flex-wrap: wrap;
+}
+#prva {
+    padding-top: 5%;
+    text-align: center;
+    flex: 33%;
+    background: linear-gradient(0deg, rgb(104, 190, 82) 0%, rgb(237, 44, 255) 100%);
+    height: 200px;
+    font-size: 150%;
+    font-weight: bolder;
+}
+#druga {
+    padding-top: 5%;
+    text-align: center;
+    flex: 33%;
+    background: radial-gradient(cyan, blue);
+    font-size: 150%;
+    font-weight: bolder;
+    height: 200px;
+}
+#treca {
+    padding-top: 5%;
+    text-align: center;
+    flex: 33%;
+    background: conic-gradient(rgb(160, 76, 220),rgb(110, 73, 119));
+    height: 200px;
+    font-size: 150%;
+    font-weight: bolder;
+}
+#naslov {
+    padding-left: 20%;
+}
+h2 {
+    text-align: center;
+    font-weight: 200;
+}
+#songs {
+    background-color: antiquewhite;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+#dobijenipas {
+    text-decoration: underline;
+    display: inline;
+}
+#tekst {
+    padding-left: 20%;
+    display: inline;
+}
+span {
+    font-weight: 900;
+}
